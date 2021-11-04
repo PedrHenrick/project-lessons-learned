@@ -1,43 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto lessons learned</title>
-    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
     <header id="cabecalho">
         <h1 id="titulo">Lições aprendidas - Trybe!</h1>
+        <menu id="menu_nav">
+            <nav id="menu">
+                <ul>
+                    <li><a href="#foto_nome">Home</a></li>
+                    <li><a href="#minha_foto">Lições</a></li>
+                    <li><a href="#artigo">Artigo</a></li>
+                </ul>
+            </nav>
+        </menu>
     </header>
+
+    <section id="foto_nome">
         <img id="minha_foto" src="./pedro-foto.jpeg" alt="Foto de Pedro Henrick" width="250px">
-    <section>
-        <ol id="licoes_aprendidas">
-            <li>Zoom</li>
-            <li>Slack</li>
-            <li>Unix</li>
-            <li>Bash</li>
-            <li>Git</li>
-            <li>Github</li>
-            <li>Internet</li>
-            <li>Html</li>
-            <li>Css</li>
-            <li>Html Semântico</li>
-        </ol>
-        <ul id="licoes_a_aprender">
-            <li>JavaScript</li>
-            <li>DOM</li>
-            <li>Forms</li>
-            <li>CSS responsívo</li>
-            <li>React</li>
-            <li>Node</li>
-            <li>SQL</li>
-            <li>ES6</li>
-            <li>HOF</li>
-            <li>Flexbox</li>
-        </ul>
+                <p><a target="_blank" href="https://pedrhenrick.github.io/">Pedro Henrick Mesquits Costa</a></p>
     </section>
-    <footer id="rodape"></footer>
+
+    <section id="listas">
+        <h2>Lições</h2>
+                <section>
+                        <ol id="licoes_aprendidas">
+                                <li>Zoom</li>
+                                <li>Slack</li>
+                                <li>Unix</li>
+                                <li>Bash</li>
+                                <li>Git</li>
+                                <li>Github</li>
+                                <li>Internet</li>
+                                <li>Html</li>
+                                <li>Css</li>
+                                <li>Html Semântico</li>
+                        </ol>
+                        <ul id="licoes_a_aprender">
+                                <li>JavaScript</li>
+                                <li>DOM</li>
+                                <li>Forms</li>
+                                <li>CSS responsívo</li>
+                                <li>React</li>
+                                <li>Node</li>
+                                <li>SQL</li>
+                                <li>ES6</li>
+                                <li>HOF</li>
+                                <li>Flexbox</li>
+                        </ul>
+                </section>
+    </section>
+
+    <article id="artigo">
+        <h2>Be tryber</h2>
+        <section>
+            <p class="lado-esquerdo">A trybe é algo muito importante na minha vida, sem sombra de dúvidas me deixou bastante animado a recomeçar minha carreira na área de tecnologia. No início fiquei bastante assustado: Em menos de 1 mês aprendi mais do que em 1 ano de faculdade. É interessante a forma como os assuntos são abordados, por em prática é essencial para o processo. Sigo buscando mais e mais aprender e ser a minha melhor versão durante toda essa caminhada.</p>
+        </section>
+    </article>
+
+    <aside id="barra_lateral">
+        <h2>Mão na massa</h2>
+        <section>
+            <p class="lado-direito">No começo foi bem complexo, me adaptando a rotina e a velocidade de aprendizado, mas animado. Os primeiros módulos me cobraram bastante repetição, o último paciência, além e me fez correr atrás de mais informações relevantes ao assunto.</p>
+        </section>
+    </aside>
+
+    <table id="tabela">
+        <h2>Os assunto até o momento foram:</h2>
+        <tr>
+            <td><strong>Bloco 1</strong></td>
+            <td><strong>| Bloco 2</strong></td> 
+            <td><strong>| Bloco 3</strong></td>
+        </tr>
+        <tr>
+            <td>Unix</td>
+            <td>| Git</td>
+            <td>| HTML</td>
+        </tr>
+        <tr>
+            <td>Bash</td>
+            <td>| Github</td>
+            <td>| CSS</td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td>| Internet</td>
+            <td>|</td>
+        </tr>
+    </table>
+
+    <footer id="rodape">
+        Todos os direitos reservados, Pedro Henrick
+    </footer>
 </body>
 </html>
